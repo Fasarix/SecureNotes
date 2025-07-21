@@ -25,7 +25,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
+            }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -73,5 +73,8 @@ dependencies {
 
     // Gson
     implementation libs.gson
+
+    //Root Detection
+    implementation libs.rootbeer.lib
 
 }

@@ -19,3 +19,30 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Mantieni classi di AndroidX
+-keep class androidx.** { *; }
+
+# Mantieni classi usate dalla Biometric API
+-keep class androidx.biometric.** { *; }
+
+# Mantieni entità Room
+-keep class com.yourpackage.model.** { *; }
+-keepclassmembers class * {
+    @androidx.room.* <methods>;
+}
+
+# Mantieni classi per encrypted preferences/file
+-keep class androidx.security.crypto.** { *; }
+
+# Mantieni entry point (Application)
+-keep class com.example.securenotes.ui.auth.WelcomeActivity{ *; }
+
+# Mantieni classi usate dinamicamente (Gson)
+-keepnames class * {
+    @com.google.gson.annotations.SerializedName <fields>;
+}
+
+# Suppress auto-generated warnings
+-dontwarn javax.annotation.Nullable
+-dontwarn javax.annotation.concurrent.GuardedBy

@@ -3,7 +3,6 @@ agp = "8.11.1"
 androidDatabaseSqlcipher = "4.9.0"
 biometric = "1.1.0"
 core = "1.16.0"
-glide = "4.16.0"
 gson = "2.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -16,18 +15,16 @@ constraintlayout = "2.2.1"
 navigationFragment = "2.9.2"
 recyclerview = "1.4.0"
 roomRuntime = "2.7.2"
+rootbeerLib = "0.1.1"
 securityCrypto = "1.1.0-beta01"
 sqlite = "2.5.2"
-timber = "5.0.1"
 workRuntime = "2.10.2"
 preference = "1.2.1"
 
 [libraries]
 android-database-sqlcipher = { module = "net.zetetic:sqlcipher-android", version.ref = "androidDatabaseSqlcipher" }
 biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 core = { module = "androidx.core:core", version.ref = "core" }
-glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -44,10 +41,10 @@ navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "n
 recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+rootbeer-lib = { module = "com.scottyab:rootbeer-lib", version.ref = "rootbeerLib" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
 sqlite = { module = "androidx.sqlite:sqlite", version.ref = "sqlite" }
 sqlite-framework = { module = "androidx.sqlite:sqlite-framework", version.ref = "sqlite" }
-timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 work-runtime = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
 preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
 
