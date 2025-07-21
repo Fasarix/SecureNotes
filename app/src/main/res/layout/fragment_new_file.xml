@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/note_card_background"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/edit_file_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Inserisci Titolo"
+                android:textColorHint="@android:color/black"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:paddingBottom="8dp"
+                android:inputType="textCapSentences" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_pick_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scegli file"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/green_dark"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_pick_file"
+                app:iconPadding="8dp"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/text_selected_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nessun file selezionato"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seleziona Tag"
+                android:textColor="@color/green_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_file_tag"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_spinner_rounded" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_save_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salva"
+                android:backgroundTint="@color/green_dark"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:icon="@drawable/ic_save"
+                app:iconPadding="8dp"
+                app:iconGravity="textStart"
+                app:iconTint="@android:color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

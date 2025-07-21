@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SecureNotes</string>
+    <string name="secure_notes_icon_description">Secure Notes Icon with Calendar and Lock</string>
+    <string name="settings_icon_description">Settings</string>
+    <string name="notes_tab">Notes</string>
+    <string name="files_tab">Files</string>
+    <string name="show_by_tag">Mostra per tag</string>
+    <string name="more_options">More options</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="save_note">Save Note</string>
+    <string name="back_button_description">Back</string>
+    <string name="pdf_file_icon">PDF File Icon</string>
+    <string name="image_file_icon">Image File Icon</string>
+    <string name="add_new_file">Add New File</string>
+    <string name="settings_screen_title">Settings</string>
+    <string name="export_data_icon_description">Export Data Icon</string>
+    <string name="share_icon_description">Share Icon</string>
+    <string name="scegli_un_pin">Scegli un PIN</string>
+    <string name="conferma">Conferma</string>
+    <string name="inizia">INIZIA</string>
+    <string name="benvenuto_nin_securenotes">Benvenuto \nin SecureNotes</string>
+    <string name="inserisci_pin">Inserisci PIN</string>
+    <string name="confirm">Conferma Pin</string>
+    <string name="confirm_new_pin">Conferma nuovo PIN</string>
+    <string name="new_pin">Inserisci nuovo PIN</string>
+    <string name="current_pin">Inserisci PIN attuale</string>
+    <string name="change_your_pin">Cambio PIN</string>
+    <string name="inserisci_password">Inserisci Password di Cifratura</string>
+    <string name="exporting"><![CDATA[Exporting/Importing Notes & Files]]></string>
+</resources>

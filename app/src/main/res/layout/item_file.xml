@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/note_card_background_selector">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <View
+                android:id="@+id/file_tag_color"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/circle_red"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/file_tag"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:text="Shopping" />
+
+            <ImageView
+                android:id="@+id/file_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more_vert"
+                android:contentDescription="File Options" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/file_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Filename" />
+
+        <TextView
+            android:id="@+id/file_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="Tipo: PDF" />
+
+        <TextView
+            android:id="@+id/file_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="Path: " />
+
+        <TextView
+            android:id="@+id/file_created"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Creato: -"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/file_updated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Modificato: -"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

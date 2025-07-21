@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_dark">#FF388E3C</color>
+    <color name="green_light_card_background">#8BC34A</color>
+    <color name="pressed_background">#278FD9</color>
+    <color name="file_type_image">#4CAF50</color>
+    <color name="file_type_audio">#2196F3</color>
+    <color name="file_type_video">#9C27B0</color>
+    <color name="file_type_pdf">#F44336</color>
+    <color name="file_type_text">#795548</color>
+    <color name="file_type_docx">#3F51B5</color>
+    <color name="file_type_xlsx">#009688</color>
+    <color name="file_type_zip">#FF9800</color>
+    <color name="gray">#333333 </color>
+
+</resources>

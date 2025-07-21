@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm">Conferma Pin</string>
+    <string name="confirm_new_pin">Conferma nuovo PIN</string>
+    <string name="new_pin">Inserisci nuovo PIN</string>
+    <string name="current_pin">Inserisci PIN attuale</string>
+    <string name="change_your_pin">Cambio PIN</string>
+    <string name="inserisci_password">Inserisci Password di Cifratura</string>
+    <string name="exporting"><![CDATA[Exporting/Importing Notes & Files]]></string>
+</resources>

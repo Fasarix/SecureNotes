@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="Tema scuro"
+        android:summary="Attiva/disattiva il tema scuro" />
+
+    <ListPreference
+        android:key="session_timeout"
+        android:title="Timeout sessione"
+        android:entries="@array/session_timeout_labels"
+        android:entryValues="@array/session_timeout_values"
+        android:defaultValue="5"
+        android:summary="%s minuti" />
+
+    <Preference
+        android:key="set_password"
+        android:title="Imposta password per Backup"
+        android:summary="Inserisci una password di 16 caratteri" />
+
+    <Preference
+        android:key="perform_backup"
+        android:title="Esegui backup sicuro"
+        android:summary="Esporta note e file in uno ZIP cifrato con il tuo PIN" />
+
+    <Preference
+        android:key="import_backup"
+        android:title="Importa Backup"
+        android:summary="Importa note e file da backup zip cifrato" />
+
+    <Preference
+        android:key="change_pin"
+        android:title="Cambia PIN"
+        android:summary="Modifica il PIN di accesso all'app" />
+</PreferenceScreen>
